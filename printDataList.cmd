@@ -1,0 +1,2 @@
+echo https://osdc.rcc.uchicago.edu/noaa-goes16/ABI-L2-CMIPM/2017/268/15/ > output.txt
+python C:\Python27\ArcGIS10.5\Scripts\aws s3 ls s3://noaa-goes16/ABI-L2-CMIPM/2017/268/15/ --no-sign-request --endpoint-url https://osdc.rcc.uchicago.edu --no-verify-ssl >> output.txt
